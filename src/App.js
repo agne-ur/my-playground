@@ -1,13 +1,15 @@
-
+import React from "react"
+import Menu from "./Menu"
+import Favorite from "./Favorite"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img className="App-logo" alt="logo" />
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <Menu something="whatever" />
+            <hr />
+            <Favorite />
+        </div>
+    )
 }
 
-export default App;
+export default App
